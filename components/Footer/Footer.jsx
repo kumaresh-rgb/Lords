@@ -18,7 +18,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
 
-import { AiOutlineSchedule } from 'react-icons/ai';
+import { BsBookmarkCheck } from 'react-icons/bs';
 import { ImClipboard } from 'react-icons/im';
 import { MdOutlineDashboard } from 'react-icons/md';
 import { HiOutlinePresentationChartBar } from 'react-icons/hi';
@@ -45,10 +45,10 @@ export default function BottomNavWithDrawer() {
   };
   const bottomNavItems = [
     { label: <p className='font-semibold hover:text-blue-500'>Recents</p>, icon: <MdOutlineDashboard className="text-3xl hover:text-blue-500 "/> },
-    { label: <p className='font-semibold hover:text-blue-500 '>Recents</p>, icon: <AiOutlineSchedule  className="text-2xl hover:text-blue-500" /> },
-    { label: <p className='font-semibold hover:text-blue-500'>Recents</p>, icon: <HiOutlinePresentationChartBar  className="text-2xl hover:text-blue-500" /> },
-    { label: <p className='font-semibold hover:text-blue-500'>Recents</p>, icon: <Link href="/Memorise"> <ImClipboard  className="text-2xl hover:text-blue-500" /></Link>  },
-    { label: <p className='font-semibold hover:text-blue-500'>Recents</p>, icon: <PiSuitcaseSimpleFill  className="text-2xl hover:text-blue-500" /> },
+    { label: <p className='font-semibold hover:text-blue-500 '>Memorise</p>, icon: <ImClipboard  className="text-2xl hover:text-blue-500" /> },
+    { label: <p className='font-semibold hover:text-blue-500'>Board</p>, icon: <HiOutlinePresentationChartBar  className="text-2xl hover:text-blue-500" /> },
+    { label: <p className='font-semibold hover:text-blue-500'>Saved</p>, icon: <Link href="/Memorise"> <BsBookmarkCheck  className="text-2xl hover:text-blue-500" /></Link>  },
+    { label: <p className='font-semibold hover:text-blue-500'>Unplanned</p>, icon: <PiSuitcaseSimpleFill  className="text-2xl hover:text-blue-500" /> },
   ];
 
   const drawerContent = (
