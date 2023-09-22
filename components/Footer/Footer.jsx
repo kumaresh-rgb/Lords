@@ -83,7 +83,7 @@ export default function BottomNavWithDrawer() {
   );
 
   return (
-    <footer className=" sticky container mx-auto bg">
+    <footer className=" mt-10 container mx-auto bg">
       <Box>
         <Drawer
           anchor="bottom"

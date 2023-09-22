@@ -75,7 +75,7 @@ const Body = () => {
           <AddItem key={index} {...item} />
         ))}
         <TaskStatus />
-        <div className="bg-white z-20 rounded-md">
+        <div className="bg-white z-20 rounded-md mt-9">
           {addItems.map((item, index) => (
             <AddItem key={index} {...item} />
           ))}
