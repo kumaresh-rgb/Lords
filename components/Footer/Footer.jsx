@@ -18,7 +18,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
 
-import { AiOutlineSchedule } from 'react-icons/Ai';
+import { AiOutlineSchedule } from 'react-icons/ai';
 import { ImClipboard } from 'react-icons/im';
 import { MdOutlineDashboard } from 'react-icons/md';
 import { HiOutlinePresentationChartBar } from 'react-icons/hi';
